@@ -208,11 +208,12 @@ body {
 .offers__btn:hover {
   background: #ff0000;
   color: #fff;
+  animation:none;
 }
 
 @keyframes blink {
   0% {
-    background: #ff3c00;
+    background: #ff6f44;
     color: #ffffff;
     transform: scale(1); 
   }
@@ -222,7 +223,7 @@ body {
     transform: scale(1.05);
   }
   100% {
-    background: #ff3c00;
+    background: #ff6f44;
     color: #ffffff;
     transform: scale(1); 
   }
