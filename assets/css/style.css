@@ -281,6 +281,10 @@ footer {
 .footer__end {
   margin: 20px 0 40px 0;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer__end p, .footer__end nav{
+  margin: 5px 0;
 }
 .footer__nav ul {
   gap: 20px;
